@@ -1,0 +1,36 @@
+DOCTYPE html>
+
+<html>
+
+<head>
+<title>Login Page</title>
+<script type="text/javascript">
+function validateForm() {
+var username = document.forms["loginForm"]["username"].value;
+var password = document.forms["loginForm"]["password"].value;
+if (username == "") {
+alert("Username must be filled out");
+return false;
+}
+if (password == "") {
+alert("Password must be filled out");
+return false;
+}
+}
+</script>
+
+</head>
+
+<body>
+<h1>Login Page</h1>
+<form name="loginForm" onsubmit="return validateForm()" method="post">
+<label for="username">Username:</label>
+<input type="text" id="username" name="username"><br><br>
+<label for="password">Password:</label>
+<input type="password" id="password" name="password"><br><br>
+<input type="submit" value="Login">
+</form>
+
+</body>
+
+</html>

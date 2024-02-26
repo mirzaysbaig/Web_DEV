@@ -1,0 +1,22 @@
+
+    body {
+        background-color:lightblue;
+
+    }
+     hr {
+        border-style: none;
+      border-top-style:dotted;
+     
+      border-color:grey;
+      border-width: 10px;
+      
+      width: 20%;
+
+    }
+    h1 {
+       color:rgb(188, 110, 8) ;
+    }
+    h3{
+      color: rgb(188, 116, 20);
+    }
+ 
